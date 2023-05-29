@@ -27,7 +27,7 @@
   display: inline-block;
   margin-right: 10px;
   position: relative;
-  top: -20px;
+  top: 1000px;
   width: 64px;
 }
 
@@ -36,6 +36,8 @@
   font-size: 64px;
   line-height: 64px;
   font-weight: 400;
+  position: relative;
+  top: 5px;
   color: rgb(33, 33, 33);
 }
 .Weather canvas {
@@ -49,5 +51,5 @@
   color: rgb(33, 33, 33);
   position: relative;
   line-height: 1;
-  top: -34px;
+  top: -30px;
 }
