@@ -1,15 +1,23 @@
 import "./App.css";
-
+import Weather from "./Weather";
 export default function App() {
   return (
     <div className="App">
-      <h1>Weather app</h1>
-      <p>
-        This project is created by Shkoufeh Adhami and is
-        <a href="https://github.com/shekadha/new-project">
-          open-sourced on GitHub
-        </a>
-      </p>
+      <header className="App-header">
+        <div className="container">
+          <Weather defaultCity="Berlin" />
+          <footer>
+            This code is created by Shekoufeh and is {""}
+            <a
+              href="https://github.com/shekadha/my-react-app"
+              target="_blank"
+              rel="noreferrer"
+            >
+              open-sourced
+            </a>
+          </footer>
+        </div>
+      </header>
     </div>
   );
 }
