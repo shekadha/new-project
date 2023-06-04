@@ -12,6 +12,7 @@
   font-weight: 100;
   line-height: 29px;
   margin: 20px 0px 0px 10px;
+  color: #246fd2;
 }
 .Weather ul {
   margin: 10px;
@@ -34,13 +35,14 @@
 
 .Weather .temperature {
   font-weight: bold;
-  font-size: 64px;
+  font-size: 52px;
   margin-left: 5px;
   line-height: 64px;
   font-weight: 400;
   position: relative;
-  top: 5px;
+  top: 1px;
   color: rgb(33, 33, 33);
+  color: #246fd2;
 }
 .Weather canvas {
   display: inline-block;
