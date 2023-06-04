@@ -10,8 +10,8 @@
   display: inline-block;
 }
 .forecast1 {
-  background-color: aquamarine;
-  border-end-end-radius: 15px;
-  border-start-start-radius: 15px;
+  background-color: white;
+  border: 1px solid #246fd2;
+  border-radius: 15px;
   margin-top: 20px;
 }
