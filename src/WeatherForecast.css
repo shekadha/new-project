@@ -1,0 +1,17 @@
+.WeatherForecast {
+  text-align: center;
+}
+.WeatherForecast-temperature-min {
+  opacity: 0.6;
+  margin-left: 5px;
+}
+.canvas {
+  margin-right: 0px;
+  display: inline-block;
+}
+.forecast1 {
+  background-color: aquamarine;
+  border-end-end-radius: 15px;
+  border-start-start-radius: 15px;
+  margin-top: 20px;
+}
